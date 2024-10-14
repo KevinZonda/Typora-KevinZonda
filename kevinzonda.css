@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root {
-  --primary: rgb(181,54,41);
-  --marker: rgb(181, 54, 41, 0.8);
+  --primary: rgb(139, 0, 18);
+  --marker: rgb(139, 0, 18, 0.8);
   --white: #ffffff;
 }
 
@@ -227,7 +227,7 @@ pre.md-fences-advanced.md-focus .md-fences-adv-panel {
 }
 
 ::-webkit-scrollbar {
-  width: 1rem;
+  width: 0.5rem;
 }
 
 #write > h3.md-focus:before,
@@ -272,8 +272,8 @@ h6.md-focus:before {
 #write h2 {
   background-color: var(--primary);
   color: #ffffff;
-  padding: 1px 12.5px;
-  border-radius: 4px;
+  padding: 1px 10px;
+  border-radius: 0px;
   display: inline-block;
 }
 
@@ -403,7 +403,7 @@ li.md-list-item {
   width: 1.2rem;
   height: 1.2rem;
   border: 1.5px solid var(--primary);
-  border-radius: 2px;
+  border-radius: 0px;
   background-color: #fdfdfd;
   margin-top: -0.4rem;
 }
