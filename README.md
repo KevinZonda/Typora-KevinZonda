@@ -1,73 +1,15 @@
-![cover](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/cover.png?raw=true)
-# 锦绣红 Typora 模板：大学生课程论文与日常写作的好帮手
+# KevinZonda's Typora Theme
 
-
-[下载与安装](#下载与安装) | [论文封面修改](#论文封面修改) | [scu-essay格式总览](#scu-essay格式总览) <br/>
-
-本项目一共提供两个Typora主题样式，均为浅色主题。<br/>
-在 windows 上设计和测试。未经全面测试，但应该适用于 macos/Linux。
-
-| scu-essay                                              | scu                                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 以[latex主题](https://github.com/Keldos-Li/typora-latex-theme)为模板，参考`四川大学本科毕业论文（设计）格式和参考文献著录要求`，从好看的角度优化过字体和行间距，**并未严格遵守要求**，但能够满足大部分**中国大陆本科生**的**课程论文**需求。<br/>该模板适合课程论文的书写，不建议日用。 | 参考了lapis模板，采用川大锦绣红风格。<br />该模板适合日常使用 |
-| ![theme-scu-essay.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/theme-scu-essay.png?raw=true) | ![theme-scu.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/theme-scu.png?raw=true) |
-
-
-
-## 主题预览
-
-### 封面
-
-| ![封面.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/%E5%B0%81%E9%9D%A2.png?raw=true) | ![摘要、关键词.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/%E6%91%98%E8%A6%81%E3%80%81%E5%85%B3%E9%94%AE%E8%AF%8D.png?raw=true) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-
-#### 层级标题
-
-|                          Jinxiu-essay                           |                             Jinxiu                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![层级标题-scu-essay.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/%E5%B1%82%E7%BA%A7%E6%A0%87%E9%A2%98-scu-essay.png?raw=true) | ![层级标题-scu.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/%E5%B1%82%E7%BA%A7%E6%A0%87%E9%A2%98-scu.png?raw=true) |
-
-#### 表格
-
-|                          Jinxiu-essay                           |                             Jinxiu                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![表格-scu-essay.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/%E8%A1%A8%E6%A0%BC-scu-essay.png?raw=true) | ![表格-scu.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/%E8%A1%A8%E6%A0%BC-scu.png?raw=true) |
-
-### 项目列表
-
-| Jinxiu-essay                                                    | Jinxiu                                                          |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![项目列表-scu-essay.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/%E9%A1%B9%E7%9B%AE%E5%88%97%E8%A1%A8-scu-essay.png?raw=true) | ![项目列表-scu.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/%E9%A1%B9%E7%9B%AE%E5%88%97%E8%A1%A8-scu.png?raw=true) |
-
-## 引用块
-
-两个主题样式相同
-
-![引用块-scu.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/%E5%BC%95%E7%94%A8%E5%9D%97-scu.png?raw=true)
-
-### 代码块
-
-| Jinxiu-essay                                                    | Jinxiu                                                          |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![代码块-scu-essay.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/%E4%BB%A3%E7%A0%81%E5%9D%97-scu-essay.png?raw=true) | ![代码块-scu.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/img/%E4%BB%A3%E7%A0%81%E5%9D%97-scu.png?raw=true) |
-
-
-
-## 下载与安装
-请完整阅读以下过程，以确保一切符合预期。
-
-Typora 是一个支持实时预览的 markdown 编辑器。在安装本主题前，请确认您已下载 [Typora](https://typoraio.cn/) 并完成了安装。如果您对 markdown 的语法还不了解，您可以从[Typora](https://typoraio.cn/)中获得帮助。
-
-[下载并解压打包好的压缩包](https://github.com/Sophomoresty/typora-scu-eassy-theme/releases/tag/v0.1.0)
+> Adapted from [Sophomoresty/typora-theme-Jinxiu](https://github.com/Sophomoresty/typora-theme-Jinxiu), which is licensed under MIT.
 
 ### 安装主题
 1. 打开`Typora`->文件->偏好设置->外观->打开主题文件夹
 
-2. 复制`jinxiu.css`文件、`jinxiu-essay.css`文件到主题文件夹下
+2. 复制`KevinZonda.css`文件到主题文件夹下
 
 3. 重启`Typora`
 
-4. 打开`Typora`->主题->选择 `Jinxiu-essay（论文主题）`或者 `Jinxiu（日用主题）`
+4. 打开`Typora`->主题->选择
 
 ### 安装字体
 
@@ -119,9 +61,9 @@ Typora 是一个支持实时预览的 markdown 编辑器。在安装本主题前
 >![image-20240825035038063.png](https://github.com/Sophomoresty/typora-scu-eassy-theme/blob/master/template/assets/image-20240825035038063.png?raw=true)
 >
 
-## 鸣谢
+## Credit
 
-本项目是在下面两个开源项目的基础上完成的
-- [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme)
-- [YiNNx/typora-theme-lapis](https://github.com/YiNNx/typora-theme-lapis) 
+- [Sophomoresty/typora-theme-Jinxiu](https://github.com/Sophomoresty/typora-theme-Jinxiu)
+  - [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme)
+  - [YiNNx/typora-theme-lapis](https://github.com/YiNNx/typora-theme-lapis) 
 

@@ -417,7 +417,7 @@ li.md-list-item {
 
 /* Table */
 
- #write table {
+#write table {
   display: table;
   text-align: justify;
   overflow-x: auto;
@@ -555,7 +555,7 @@ li code {
 
 /*  Code Block - Color Scheme */
 
- .cm-s-inner .cm-keyword {
+.cm-s-inner .cm-keyword {
   color: rgb(181,54,41) !important;
 }
 
