@@ -2,6 +2,7 @@
 
 :root {
   --primary: rgb(181,54,41);
+  --marker: rgb(181, 54, 41, 0.8);
   --white: #ffffff;
 }
 
@@ -342,7 +343,7 @@ h6.md-focus:before {
 /* List */
 ::marker {
   font-weight: bold;
-  color: rgb(181,54,41,0.8);
+  color: var(--primary);
 }
 
 li.md-list-item {
@@ -546,7 +547,7 @@ li code {
 /*  Code Block - Color Scheme */
 
 .cm-s-inner .cm-keyword {
-  color: rgb(181,54,41) !important;
+  color: var(--primary) !important;
 }
 
 .cm-s-inner .cm-operator {
