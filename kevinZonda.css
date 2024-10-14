@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+:root {
+  --primary: rgb(181,54,41);
+  --white: #ffffff;
+}
+
 body {
   padding: 0 !important;
   margin: 0 !important;
@@ -28,12 +33,12 @@ body {
 }
 
 #write a{
-  color: rgb(181,54,41);
+  color: var(--primary);
 }
 
 /* 选中内容为红色背景，字体颜色为白色 */
 #write ::selection {
-  background-color: rgb(181,54,41); 
+  background-color: var(--primary); 
   color: white;
 }
 
@@ -59,12 +64,12 @@ body {
 }
 
 .md-toc-content:empty:before {
-  color: rgb(181,54,41);
+  color: var(--primary);
 }
 
 #write div.md-toc-tooltip {
   font-family: 'PT Sans', 'SourceHanSerifCN';
-  color: rgb(181,54,41);
+  color: var(--primary);
   position: static;
   margin-top: 10px;
   background-color: #f6f8fa;
@@ -91,7 +96,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 2px solid rgb(181,54,41);
+  border-top: 2px solid var(--primary);
   border-radius: 2px;
 }
 
@@ -139,11 +144,11 @@ strong {
 .ty-show-search #info-panel-tab-search .info-panel-tab-border {
   border-radius: 10px;
   height: 1px;
-  background-color: rgb(181,54,41);
+  background-color: var(--primary);
 }
 
 .file-node-content {
-  color: rgb(181,54,41);
+  color: var(--primary);
   line-height: 1.6rem;
 }
 
@@ -160,8 +165,8 @@ span.file-node-title-ext-part {
 }
 
 .file-tree-node.active>.file-node-background {
-  border-left: 4px solid rgb(181,54,41);
-  border-color: rgb(181,54,41);
+  border-left: 4px solid var(--primary);
+  border-color: var(--primary);
 }
 
 /* Sidebar - Outline */
@@ -175,7 +180,7 @@ span.file-node-title-ext-part {
 
 #outline-content .outline-active,
 .pin-outline .outline-active {
-  color: rgb(181,54,41);
+  color: var(--primary);
 }
 
 .outline-item {
@@ -190,7 +195,7 @@ span.file-node-title-ext-part {
 
 pre.md-meta-block {
   font-family: 'JetBrainsMono', 'JetBrains Mono', monospace;
-  color: rgb(181,54,41);
+  color: var(--primary);
   background: #f6f8fa;
   padding: 1.5rem;
   margin: -37px 0rem 3.8rem;
@@ -217,7 +222,7 @@ pre.md-fences-advanced.md-focus .md-fences-adv-panel {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 0px;
-  background: rgb(181,54,41);
+  background: var(--primary);
 }
 
 ::-webkit-scrollbar {
@@ -256,7 +261,7 @@ h6.md-focus:before {
 #write h6 {
   font-family: 'PT Sans', 'SourceHanSerifCN';
   padding: 0px;
-  color: rgb(181,54,41);
+  color: var(--primary);
 }
 
 #write h1 {
@@ -264,7 +269,7 @@ h6.md-focus:before {
 }
 
 #write h2 {
-  background-color: rgb(181,54,41);
+  background-color: var(--primary);
   color: #ffffff;
   padding: 1px 12.5px;
   border-radius: 4px;
@@ -282,7 +287,7 @@ h6.md-focus:before {
 
 #write h2 code {
   color: #ffffff;
-  background-color: rgb(181,54,41);
+  background-color: var(--primary);
 }
 
 #write h1 {
@@ -389,7 +394,7 @@ li.md-list-item {
   bottom: -1px;
   width: 1.2rem;
   height: 1.2rem;
-  border: 1.5px solid rgb(181,54,41);
+  border: 1.5px solid var(--primary);
   border-radius: 2px;
   background-color: #fdfdfd;
   margin-top: -0.4rem;
@@ -397,8 +402,8 @@ li.md-list-item {
 
 /* 勾选后的样式 */
 .task-list-item input:checked::before {
-  background-color: rgb(181,54,41); 
-  border: 1.5px solid rgb(181,54,41); 
+  background-color: var(--primary); 
+  border: 1.5px solid var(--primary); 
 }
 
 /* 勾选后的勾号 */
@@ -460,7 +465,7 @@ li.md-list-item {
   text-align: center;
   min-width: 10rem;
   font-weight: bold;
-  color: rgb(181,54,41);
+  color: var(--primary);
 }
 
 
@@ -477,7 +482,7 @@ blockquote {
   display: block;
   font-size: 12pt;
   overflow: auto;
-  border-left: 5px solid rgb(181,54,41);
+  border-left: 5px solid var(--primary);
   padding: 15px 30px 15px 20px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -496,7 +501,7 @@ code {
 h1 code, h2 code, h3 code, h4 code, h5 code, h6 code,
 p code,
 li code {
-  color: rgb(181,54,41);
+  color: var(--primary);
   background-color: #fefefe;
   font-family: "JetBrainsMono","JetBrains Mono",monospace,'SourceHanSerifCN';
   font-weight: 900;
