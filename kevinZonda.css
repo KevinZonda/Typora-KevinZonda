@@ -60,7 +60,7 @@ body {
 
 /* TOC */
 
- .md-toc-content {
+.md-toc-content {
   font-family: 'PT Sans', 'SourceHanSerifCN';
 }
 
@@ -347,7 +347,7 @@ h6.md-focus:before {
 }
 
 li.md-list-item {
-  margin: 0.4rem 0;
+  margin: 0px;
 }
 
 #write ul,
@@ -381,6 +381,13 @@ li.md-list-item {
   color: #40464f;
   font-weight: 500;
 }
+
+#write ul > li > p,
+#write ol > li > p {
+	margin: 0;
+	margin-left: 10px;
+}
+
 
 /* Checkbox */
 #write input[type=checkbox] {
@@ -468,7 +475,6 @@ li.md-list-item {
   font-weight: bold;
   color: var(--primary);
 }
-
 
 table td {
   min-width: 32px;
