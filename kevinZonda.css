@@ -212,11 +212,11 @@ pre.md-fences-advanced.md-focus .md-fences-adv-panel {
 }
 
 ::-webkit-scrollbar-track {
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
+  border-radius: 0px;
   background: rgb(181,54,41);
 }
 
@@ -509,8 +509,6 @@ li code {
 }
 
 /* 代码块样式 */
-/* code fences */
-/* mac风格样式 */
 .CodeMirror.cm-s-inner {
   margin-top: 15px;
   /* background-color: white;  */
@@ -524,7 +522,7 @@ li code {
 .cm-s-inner.CodeMirror {
   padding: 1.5rem .8rem;
   color: #4f5467;
-  font-family: 'JetBrainsMono','JetBrains Mono',monospace;
+  font-family: 'JetBrainsMono', 'JetBrains Mono', monospace;
   font-weight: 900;
   font-size: 1em;
   background-color: #f5f6f7;
