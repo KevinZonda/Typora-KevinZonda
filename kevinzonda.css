@@ -490,12 +490,11 @@ blockquote {
   font-size: 12pt;
   overflow: auto;
   border-left: 5px solid var(--primary);
-  padding: 15px 30px 15px 20px;
+  padding: 0px 30px 0px 20px;
   margin-bottom: 20px;
   margin-top: 20px;
   background: rgb(246, 248, 250);
-  box-shadow: 4px 4px 5px #c5c0c0;
-  border-radius:4px 15px 15px 4px;
+  border-radius: 0;
   font-family: 'PT Sans', 'SourceHanSerifCN';
 }
 
@@ -514,10 +513,10 @@ li code {
   font-weight: 900;
   text-align: justify;
   vertical-align: baseline;
-  padding: 2px;
+  padding: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
   background: rgb(246, 248, 250);
-  border-radius: 14px;
-  box-shadow: 1px 1px 5px #c8d3df;
 }
 
 /* 代码块样式 */
@@ -525,7 +524,6 @@ li code {
   margin-top: 15px;
   /* background-color: white;  */
   /*  这个背景颜色修改了没有用*/
-  border-radius: 3px;
 }
 
 
@@ -541,7 +539,6 @@ li code {
   /* 这个背景颜色并非指向代码块后面的背景颜色 */  
   /* border: 1px solid #eef2f5;*/
   line-height: 1.6rem;
-  border-radius: 10px;
 }
 
 /* 去除数字后的线 */
