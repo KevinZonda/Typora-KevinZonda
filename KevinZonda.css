@@ -189,7 +189,7 @@ span.file-node-title-ext-part {
 /* Meta Block */
 
 pre.md-meta-block {
-  font-family: 'JetBrainsMono';
+  font-family: 'JetBrainsMono','JetBrain Mono',monospace;
   color: rgb(181,54,41);
   background: #f6f8fa;
   padding: 1.5rem;
@@ -511,19 +511,6 @@ li code {
 /* 代码块样式 */
 /* code fences */
 /* mac风格样式 */
-.md-fences:after {
-  content: "";
-  position: absolute;
-  left: 11px;
-  top: 5px;
-  width: 12px;
-  height: 12px;
-  background-color: #ff374b;
-  border-radius: 6px;
-  z-index: 999999;
-  box-shadow: 20px 0 #ffc600, 40px 0 #00e03d;
-}
-
 .CodeMirror.cm-s-inner {
   margin-top: 15px;
   /* background-color: white;  */
